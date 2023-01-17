@@ -1,0 +1,77 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+/* centering the page layout */
+.page{
+    width: 600px;
+    margin: 0 auto;
+} 
+.synopsis{
+    color: lightseagreen;
+    font-style: italic;
+}
+/* descendant selectors */
+.synopsis em{
+    font-style: normal;
+}
+.button{
+    display: block;
+    text-decoration: none;
+    color: aquamarine;
+    background-color: rgb(186, 217, 8);
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    margin: 20px auto;
+}
+.button:link, .button:visited{
+    text-decoration: none;
+}
+.call-to-action{
+    background-color: blueviolet;
+}
+.button:hover, .button:visited:hover{
+    border: 1px solid black;
+    color: aquamarine;
+    background-color:cadetblue;
+}
+.button:active, .button:visited:active{
+    color: blueviolet;
+    background-color: bisque;
+
+}
+#button-2{
+    color: azure;
+}
+
+/* pseudo-classes for the <a href> */
+/* 
+:link – A link the user has never visited.
+:visited – A link the user has visited before.
+:hover – A link with the user’s mouse over it.
+:active – A link that’s being pressed down by a mouse (or finger).
+*/
+a:link{
+    color: rgb(44, 44, 209);
+    text-decoration: none;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    color:aqua;
+    text-decoration: underline;
+}
+a:visited:hover{
+    color: orange;
+}
+a:active{
+    color: red;
+}
+a:visited:active{
+    color: red;
+}
